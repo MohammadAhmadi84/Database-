@@ -1,0 +1,16 @@
+{
+  "schema": {
+    "users": {
+      "Item1": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Item2": "DotNetHW2.User, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "laptop": {
+      "Item1": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Item2": "DotNetHW2.LapTop, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  },
+  "tables": {
+    "users": "{\r\n  \"Name\": \"users\",\r\n  \"Data\": [\r\n    {\r\n      \"Key\": \"a\",\r\n      \"Value\": {\r\n        \"username\": \"masih\",\r\n        \"password\": \"masih83\",\r\n        \"email\": \"masihRoughani@gamil.com\"\r\n      }\r\n    },\r\n    {\r\n      \"Key\": \"mohammad\",\r\n      \"Value\": {\r\n        \"username\": \"mohammad\",\r\n        \"password\": \"moh84\",\r\n        \"email\": \"moh@gmail.com\"\r\n      }\r\n    }\r\n  ]\r\n}",
+    "laptop": "{\r\n  \"Name\": \"laptop\",\r\n  \"Data\": [\r\n    {\r\n      \"Key\": \"1\",\r\n      \"Value\": {\r\n        \"Ram\": \"32G DDR5\",\r\n        \"Cpu\": \"i9 14th\",\r\n        \"ScreenSize\": \"15.5\",\r\n        \"HardDisk\": \"1TB SSD\",\r\n        \"GraphicCard\": \"RTX 4060\",\r\n        \"Id\": \"1\",\r\n        \"Brand\": \"Asuz\",\r\n        \"Price\": 1500.0,\r\n        \"Model\": \"TUF\",\r\n        \"Color\": \"Black\"\r\n      }\r\n    }\r\n  ]\r\n}"
+  }
+}
